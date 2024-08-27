@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+h1{
+background-color:red;
+padding:15px;
+}
+.container{
+	padding:10px;
+}
+.container-2{
+	padding:15px;
+	width:25%;
+	background-color:black;
+	color:white;
+	border-radius:10px;
+	margin:30px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.container-2 h2{
+	color:red;
+	padding:5px;
+	width:100%;
+	border-radius:10px;
+}
+.container-2 h4{
+	padding:10px;
+}
+.container p{
+	padding:5px;
+}
+.container button{
+	background-color:blue;
+	color:white;
+	border-radius:10px;
+	/*padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;*/
+	padding:7px 8px;
+	border:none;
+	margin-top:7px;
+	margin-left:240px;
+}
+.container-2 button:hover{
+	background-color:red;
+	transition:1s;
+}
+.add-button {
+	background-color:red;
+	color:black;
+	border-radius:100%;
+	padding:20px 30px;
+	font-size:40px;
+	border:none;
+	position:fixed;
+	bottom:30px;
+	right:30px;
+}
+.popup
+{
+	background-color:black;
+	opacity:0.8;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	display:none;
+}
+.box{
+	background-color:red;
+	padding:20px;
+	width:30%;
+	height:40%;
+	position:absolute;
+	margin-left:390px;
+	margin-top:-190px;
+	border-radius:30px;
+	z-index: 2;
+	display:none;
+}
+.box h2{
+	color:black;
+}
+.box input{
+	background:transparent;
+	width:100%;
+	top:5px;
+	margin:5px;
+	padding:10px 10px;
+	border-radius:5px;
+	font-size:15px;
+	border:none;
+	border-bottom:solid black 2px;
+}
+.box input::placeholder{
+	color:black;
+}
+.box textarea{
+	background:transparent;
+	width:100%;
+	top:5px;
+	margin:5px;
+	padding:10px 10px;
+	border-radius:5px;
+	font-size:15px;
+	border:none;
+	border-bottom:solid black 2px;
+}
+.box textarea::placeholder{
+	color:black;
+}
+.box button{
+	top:5px;
+	background-color:black;
+	padding:10px 20px;
+	color:white;
+	margin-top:15px;
+	margin-left:80px;
+	width:80px;
+	border:none;
+	border-radius:5px;
+}
+.box input:focus{
+	outline:none;
+}
+.box textarea:focus{
+	outline:none;
+}
+.box button:hover{
+	transition:1s;
+	background-color:yellow;
+	color:black;
+	font-size:15px;
+	font-weight:10px;
+}	
